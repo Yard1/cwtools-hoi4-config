@@ -974,7 +974,7 @@ alias[effect:break] = none
 ## scope = any
 alias[effect:break] = yes
 
-### unlocks a focus for a country.
+### Bypasses a focus (marks as completed without firing completion_reward).
 ## scope = country
 alias[effect:unlock_national_focus] = <focus>
 alias[effect:unlock_national_focus] = <shared_focus>

@@ -13,7 +13,7 @@ bookmark = {
 	default_country = "enum[country_tags]"
 	default = bool
 	
-	## cardinality = 7..inf
+	## cardinality = 1..inf
 	"enum[country_tags]" = {
 		## cardinality = 0..1
 		minor = yes
@@ -32,7 +32,7 @@ bookmark = {
 			<shared_focus>
 		}
 	}
-
+	## cardinality = 0..1
 	"---" = {
 		history = localisation
 	}

@@ -498,5 +498,7 @@ values = {
 		i
 		### Default name of break temp variable used in loop effects and triggers.
 		break
+		### Array length (array^num)
+		num
 	}
 }
