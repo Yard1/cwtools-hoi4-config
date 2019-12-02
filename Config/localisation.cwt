@@ -46,6 +46,9 @@ localisation_commands = {
     GetOldNameDef = any
     GetOldName = any
     GetRulingPartyLong = any
-
     GetMonth = any
+
+    GetDateText = None
+    GetYear = None
+    GetMonth = None
 }
