@@ -8,7 +8,16 @@ types = {
 		path = "game/common/countries"
 		type_per_file = yes
 		subtype[country] = {
-			graphical_culture = scalar
+			color = {
+				## cardinality = 3..3
+				int
+			}
+		}
+		subtype[country] = {
+			color = {
+				## cardinality = 3..3
+				float
+			}
 		}
 		subtype[cosmetic] = {
 		}
@@ -17,7 +26,9 @@ types = {
 
 country_file = {
 	subtype[country] = {
+		## cardinality = ~0..1
 		graphical_culture = scalar
+		## cardinality = ~0..1
 		graphical_culture_2d = scalar
 		color = {
 			## cardinality = 3..3
